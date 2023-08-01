@@ -1,0 +1,394 @@
+body{
+  margin: 0;
+  font-family: "Montserrat";
+
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../../Source/material/fonts/static/Montserrat-Regular.ttf);
+}
+@media (max-width: 480px) {
+
+  .header_title {
+
+    top: 0;
+    left: 0;
+
+    z-index: 2;
+
+  }
+
+  .Page_1 {
+   
+    left: 0;
+  }
+}
+
+.header_title{
+    max-height: 80px;
+    width: 100vw;
+    height: 65px;
+    background-color: #004025;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.Page_1 {
+    left: 0;
+    background-image: url(../../Source/material/photo/desktop/background.webp);
+    background-size: cover;
+    background-position: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 842px;
+  }
+  
+  .nars_title {
+    color: white;
+    font-size: 32px;
+  }
+  
+  .nars_text {
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 5%;
+    
+  }
+  
+
+.main_text_title{
+    margin-top: 120px;
+    margin-bottom: 30px;
+    font-size: 19px;
+    color: #004025;  
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.about_text{
+    font-size: 16px;
+    color: black;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.about_photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_photo1 {
+  height: 351px;
+  width: 361px;
+}
+
+
+
+
+.services_info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.services_item {
+  text-align: center;
+}
+
+.services_photo {
+  height: 246px;
+  width: 246px;
+}
+
+.services_photo2 {
+  height: 279px;
+  width: 279px;
+}
+
+.services_title {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+
+
+.documents_text {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  max-width: 90%;
+}
+
+
+.documents_bold-text{
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px;
+}
+
+.documents{
+  margin-bottom: 150px;
+}
+
+.contacts{
+  background-image: url(../../Source/material/photo/phone/Contacts_p.webp);
+  height: 800px;
+}
+
+.contacts_title{
+  margin-bottom: 30px;
+  padding-top: 15px;
+  font-size: 22px;
+  color: #ffffff;  
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+
+}
+
+.text_input1{
+  margin-left: 10px;
+  font-family: inherit;
+  width: 90%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.text_input2{
+  margin-top: 10px;
+  margin-left: 10px;
+  background: none;
+  color: #c6c6c6;
+  font-size: 18px;
+  padding: 0px 0px 200px 0px;
+  display: block;
+  width: 90%;
+  border: none;
+  border-radius: 1;
+  border-bottom: 2px solid #9b9b9b;
+}
+
+.submit_button{
+  margin: 25px 10px 45px 10px;
+  background-color: #004025;
+  width: 90%;
+  height: 56px;
+  color: white;
+  border-radius: 12px;
+  border: none;
+  font-size: 24px;
+}
+
+.contacts_text{
+  margin-bottom: 14px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #FDFDFD;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.map{
+  margin-top: 150px;
+}
+.map1{
+  width: 100%;
+}
+.footer{
+  background-color: #004025;
+  height: 100px;
+  color: #fff;
+
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1050px;
+  width: 90%;
+  margin: auto;
+}
+
+.navbar {
+  width: 100%;
+  box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+.navbar .menu-items {
+  display: flex;
+}
+
+.navbar .nav-container li {
+  list-style: none;
+}
+
+.navbar .nav-container a {
+  text-decoration: none;
+  color: #0e2431;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+}
+
+.navbar .nav-container a:hover{
+    font-weight: bolder;
+}
+
+.nav-container {
+  display: block;
+  position: relative;
+  height: 60px;
+}
+
+.nav-container .checkbox {
+  position: absolute;
+  display: block;
+  height: 32px;
+  width: 32px;
+  top: 20px;
+  left: 20px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.nav-container .hamburger-lines {
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-container .hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #0e2431;
+}
+
+.nav-container .hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.navbar .menu-items {
+  padding-top: 120px;
+  /* box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5); */
+  background-color: #004025;
+  height: 100vh;
+  width: 100%;
+  transform: translate(-150%);
+  display: flex;
+  flex-direction: column;
+  margin-left: -40px;
+  padding-left: 50px;
+  transition: transform 0.5s ease-in-out;
+  text-align: center;
+}
+
+.navbar .menu-items li {
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+
+
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
+  transform: translateX(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .logo{
+  display: none;
+}
+
+
+header{
+  position: absolute;
+  left: 0;
+  margin-left: -5vw;
+}
