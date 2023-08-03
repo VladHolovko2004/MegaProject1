@@ -1,14 +1,15 @@
-document.getElementById("emailForm").addEventListener("submit", function(event) {
+document.getElementById("sender").addEventListener("submit", function(event) {
     event.preventDefault();
 
-    const toEmail = document.getElementById("toEmail").value;
-    const subject = document.getElementById("subject").value;
-    const message = document.getElementById("message").value;
+    const toEmail = "vladislavatamanuk@gmail.com";
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("email").value;
 
     const data = {
         toEmail: toEmail,
-        subject: subject,
-        message: message
+        subject: 'Test',
+        message: name + message + email
     };
 
     fetch("/sendEmail", {

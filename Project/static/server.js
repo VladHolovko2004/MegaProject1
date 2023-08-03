@@ -11,13 +11,13 @@ app.post("/sendEmail", (req, res) => {
     const transporter = nodemailer.createTransport({
         service: "Gmail",
         auth: {
-            user: "///",
-            pass: "///"
+            user: "narssender@gmail.com",
+            pass: "narssender123"
         }
     });
 
     const mailOptions = {
-        from: "///",
+        from: "narssender@gmail.com",
         to: toEmail,
         subject: subject,
         text: message
@@ -33,7 +33,7 @@ app.post("/sendEmail", (req, res) => {
         }
     });
 });
-
+``
 app.listen(3000, () => {
     console.log("сервер на порті 3000");
 });
