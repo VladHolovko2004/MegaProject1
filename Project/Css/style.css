@@ -416,3 +416,28 @@ header {
 header{
   position: fixed;
 }
+
+.footer_info1{
+  margin-top: 31px;
+  margin-bottom: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #FDFDFD;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer_info2{
+  padding-bottom: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #FDFDFD;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
