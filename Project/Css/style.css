@@ -61,7 +61,7 @@ body{
     color: white;
     font-size: 16px;
     text-align: left;
-    margin-left: 5%;
+     margin-left: 5%;
     
   }
   
@@ -155,8 +155,10 @@ body{
 }
 
 .contacts{
-  background-image: url(../../Source/material/photo/phone/Contacts_p.webp);
+  background-image: url(../../Source/material/photo/phone/Contacts_p.webp) ;
   height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contacts_title{
@@ -272,6 +274,7 @@ body {
 
 .navbar .menu-items {
   display: flex;
+  margin-top: 45px;
 }
 
 .navbar .nav-container li {
@@ -402,3 +405,12 @@ header {
   margin-left: -5vw;
 }
 
+/*  */
+
+.img_main{
+  z-index: 500;
+}
+
+header{
+  position: fixed;
+}
