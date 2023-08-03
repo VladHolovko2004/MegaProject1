@@ -173,6 +173,7 @@ body{
 }
 
 .text_input1{
+  margin-top: 30px;
   margin-left: 10px;
   font-family: inherit;
   width: 90%;
@@ -180,14 +181,15 @@ body{
   border-bottom: 2px solid #9b9b9b;
   outline: 0;
   font-size: 1.3rem;
-  color: #fff;
+  color: #FDFDFD;
   padding: 7px 0;
   background: transparent;
   transition: border-color 0.2s;
 }
 
 .text_input2{
-  margin-top: 10px;
+
+  margin-top: 30px;
   margin-left: 10px;
   background: none;
   color: #c6c6c6;
