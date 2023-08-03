@@ -434,7 +434,7 @@ header{
 }
 
 .phone_number1{
-  text-decoration:none
+  text-decoration:none;
   margin-top: 31px;
   margin-bottom: 8px;
   margin-right: 10px;
@@ -448,6 +448,7 @@ header{
 }
 
 .email_info1{
+  text-decoration: none;
   padding-left: 2px;
   padding-bottom: 15px;
   margin-right: 10px;
