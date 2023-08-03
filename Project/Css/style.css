@@ -10,7 +10,7 @@ body{
 @media (max-width: 480px) {
 
   .header_title {
-
+    
     top: 0;
     left: 0;
 
@@ -280,7 +280,7 @@ body {
 
 .navbar .nav-container a {
   text-decoration: none;
-  color: #0e2431;
+  color: #CBCED3;
   font-weight: 500;
   font-size: 1.2rem;
   padding: 0.7rem;
@@ -297,6 +297,19 @@ body {
 }
 
 .nav-container .checkbox {
+  position: absolute;
+  display: block;
+  height: 32px;
+  width: 32px;
+  top: 20px;
+  left: 20px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.menu-items .checkbox2 {
+
   position: absolute;
   display: block;
   height: 32px;
@@ -326,7 +339,7 @@ body {
   height: 4px;
   width: 100%;
   border-radius: 10px;
-  background: #0e2431;
+  background: #CBCED3;
 }
 
 .nav-container .hamburger-lines .line1 {
@@ -345,7 +358,7 @@ body {
 
 .navbar .menu-items {
   position: fixed;
-  top: 0;
+  top:0;
   left: 0;
   background-color: #004025;
   height: 100vh;
@@ -359,7 +372,7 @@ body {
 }
 
 .navbar .menu-items li {
-  margin-bottom: 1.2rem;
+  margin-bottom: 3rem;
   font-size: 1.5rem;
   font-weight: 500;
 }
