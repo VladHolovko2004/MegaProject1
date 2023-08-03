@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   margin: 0;
   font-family: "Montserrat";
@@ -37,6 +41,13 @@ body{
     color: white;
 }
 
+.contacts_registration {
+  width: 100vw;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .Page_1 {
     left: 0;
@@ -55,14 +66,23 @@ body{
   .nars_title {
     color: white;
     font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 3px;
   }
   
   .nars_text {
     color: white;
-    font-size: 16px;
+    font-size: 10px;
     text-align: left;
-     margin-left: 5%;
-    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 3.8vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-left: 4vw;
+    margin-top: 5vw;
   }
   
 
@@ -80,7 +100,11 @@ body{
     font-size: 16px;
     color: black;
     margin-left: 14px;
+    display: flex;
+    flex-flow: column;
     margin-right: 14px;
+    align-items: center;
+    justify-content: center;
 }
 .about_photo {
   display: flex;
@@ -89,8 +113,8 @@ body{
 }
 
 .about_photo1 {
-  height: 351px;
-  width: 361px;
+  margin-top: 5vw;
+  width: 94vw;
 }
 
 
@@ -155,10 +179,14 @@ body{
 }
 
 .contacts{
-  background-image: url(../../Source/material/photo/phone/Contacts_p.webp) ;
+  background-image: url(../../Source/material/photo/phone/Contacts_p.webp);
   height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contacts_title{
@@ -174,7 +202,7 @@ body{
 
 .text_input1{
   margin-top: 30px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   font-family: inherit;
   width: 90%;
   border: 0;
@@ -182,25 +210,12 @@ body{
   outline: 0;
   font-size: 1.3rem;
   color: #FDFDFD;
-  padding: 7px 0;
+  /* padding: 7px; */
   background: transparent;
   transition: border-color 0.2s;
 }
 
-.text_input2{
-
-  margin-top: 30px;
-  margin-left: 10px;
-  background: none;
-  color: #c6c6c6;
-  font-size: 18px;
-  padding: 0px 0px 200px 0px;
-  display: block;
-  width: 90%;
-  border: none;
-  border-radius: 1;
-  border-bottom: 2px solid #9b9b9b;
-}
+.text_input2{margin-top: 30px;/* margin-left: 10px; */background: none;color: #c6c6c6;font-size: 18px;padding: 0px 0px 200px 0px;display: block;width: 90vw;border: none;border-radius: 1;border-bottom: 2px solid #9b9b9b;}
 
 .submit_button{
   margin: 25px 10px 45px 10px;
@@ -372,7 +387,8 @@ body {
   flex-direction: column;
   padding: 120px 40px; 
   text-align: center;
-  z-index: 10; 
+  z-index: 10;
+  transition: 0.5s;
 }
 
 .navbar .menu-items li {
