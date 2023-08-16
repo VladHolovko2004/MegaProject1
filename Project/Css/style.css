@@ -1,5 +1,8 @@
+
+
 html {
   scroll-behavior: smooth;
+ margin: 0%;
 }
 
 body{
@@ -24,13 +27,31 @@ body{
 
   .Page_1 {
    
-    left: 0;
+    /* left: 0; */
+  }
+  .page1_text{
+    min-width: 360px;
+    max-height: 160px;
+    padding: 0px 10px 0px 10px;
+  }
+  .nars_title{
+    font-size: 32px !important;
+   
+  } 
+  .nars_text{
+    font-size: 16px !important;
+    min-width: 360px;
+    max-height: 160px;
+   
   }
 }
 
 .page1_text{
   max-width: 592px;
-  text-align: left;
+  /* text-align: left; */
+  max-height: 200px;
+  margin-left: 60px; 
+  float: left; 
 }
 
 .header_title{
@@ -55,16 +76,16 @@ body{
 }
 
 .Page_1 {
-    left: 0;
+    /* left: 0; */
     background-image: url(../../Source/material/photo/desktop/background.webp);
     background-size: cover;
     background-position: 70%;
-    text-align: center;
+    /* text-align: center; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 100vw;
+    /* align-items: center; */
+    width: 100%;
     height: 842px;
   }
   
@@ -72,6 +93,7 @@ body{
     color: white;
     font-size: 64px;
     letter-spacing: 3px;
+    font-family: "Montserrat";
   }
   
   .nars_text {
@@ -84,6 +106,7 @@ body{
     letter-spacing: 3px;
     font-weight: 100;
     padding-top: 20px;
+    font-family: "Montserrat", ;
   }
   
 
