@@ -1,15 +1,15 @@
-document.getElementById("sender").addEventListener("submit", function(event) {
+document.getElementById("sender").addEventListener("submit", function (event) {
     event.preventDefault();
 
     const toEmail = "vladislavatamanuk@gmail.com";
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
-    const message = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
 
     const data = {
         toEmail: toEmail,
         subject: 'Test',
-        message: name + message + email
+        message: name + " " + message + " " + email
     };
 
     fetch("/sendEmail", {
@@ -24,7 +24,7 @@ document.getElementById("sender").addEventListener("submit", function(event) {
         if (data.success) {
             alert("Лист відправлено!");
         } else {
-            alert("Ошибка при отправке письма.");
+            alert("Помилка при відправці листа.");
         }
     })
     .catch(error => {

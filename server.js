@@ -33,7 +33,7 @@ app.post("/sendEmail", (req, res) => {
         }
     });
 });
-``
-app.listen(3000, () => {
-    console.log("сервер на порті 3000");
+
+app.listen(5500, () => {
+    console.log("Сервер запущено на порті 5500");
 });
