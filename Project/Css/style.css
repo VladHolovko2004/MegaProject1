@@ -434,7 +434,8 @@ header{
   position: fixed;
 }
 
-.footer_info1{
+.phone_number1{
+  text-decoration:none;
   margin-top: 31px;
   margin-bottom: 8px;
   margin-right: 10px;
@@ -447,7 +448,9 @@ header{
   line-height: normal;
 }
 
-.footer_info2{
+.email_info1{
+  text-decoration: none;
+  padding-left: 2px;
   padding-bottom: 15px;
   margin-right: 10px;
   margin-left: 10px;
